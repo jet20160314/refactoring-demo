@@ -25,7 +25,7 @@ public class Customer {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
 				
-		String result = "Rental record for " + m_Name + "\n";
+		String result = "Rental 1 record for " + m_Name + "\n";
 		
 		for(Rental each: m_Rentals) {
 			double thisAmount = 0;
